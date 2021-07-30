@@ -1,5 +1,10 @@
-Introduction
+### Introduction
+
 For this project, I needed to train an agent to navigate (and collect bananas!) in a large, square world.
+
+[//]: # (Image References)
+
+[image1]: https://github.com/petrooha/Bananas-Project/blob/main/Bananas%20screen.gif
  
 A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana. Thus, the goal of the agent is to collect as many yellow bananas as possible while avoiding blue bananas.
 The state space has 37 dimensions and contains the agent's velocity, along with ray-based perception of objects around agent's forward direction. Given this information, the agent has to learn how to best select actions. Four discrete actions are available, corresponding to:
