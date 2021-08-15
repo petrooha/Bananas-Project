@@ -77,6 +77,7 @@ python -m ipykernel install --user --name drlnd --display-name "drlnd"
 
 ### Instructions
 
-Follow the instructions in `Navigation.ipynb` in the `VanillaDQN` foler to get started with training your own agent! Inside the folder, a pre-trained set of weights had already been saved as `DQNcheckpoint.pth`. Simply follow the code to load in the weights and watch the agent perform if you don't want to spend time training the agent. Feel free to make edits to my code to improve the agent's performance!
+Follow the instructions in `Navigation.ipynb` in the `Bnanas-Project` foler to get started with training your own agent! Inside the folder, a pre-trained set of weights had already been saved as `Checkpoint.pth`. Simply follow the code to load in the weights and watch the agent perform if you don't want to spend time training the agent. 
+If you wish to train the agent on pixels instead of environment states - replace 'vector_observations' with 'visual_observations' in the code, and, for better performance, replace 'agent' with 'dqn_agent'. Please note: curerntly agent uses medel.py which contains of 2 fully connected layers, 'dqn_agent' refers to models.py which contain Double DQN with 3 convolutional layers.
 
 (_For AWS_) If you'd like to train the agent on AWS, you must follow the instructions to [set up X Server](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md), and then download the environment for the **Linux** operating system above.
